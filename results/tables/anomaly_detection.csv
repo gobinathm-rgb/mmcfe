@@ -1,0 +1,6 @@
+variant,false_alerts,normal_days,fa_per100,detected,anomalous_days,recall,deferred,precision,rec_missed_meals,rec_prolonged_inactivity,rec_night_wandering,rec_skipped_morning_routine
+Ground-truth labels (oracle),0,80,0.0,42,80,0.525,0,1.0,0.3,0.8,1.0,0.0
+"MMCFE, ungated",3,80,3.75,38,80,0.475,0,0.9268,0.05,0.85,1.0,0.0
+"MMCFE, gated (τ=0.90)",0,80,0.0,16,80,0.2,1,1.0,0.05,0.25,0.5,0.0
+"Gradient boosting, ungated",1,80,1.25,35,80,0.4375,0,0.9722,0.0,0.7,1.0,0.05
+"Gradient boosting, gated (τ=0.90)",0,80,0.0,33,80,0.4125,0,1.0,0.1,0.6,0.95,0.0

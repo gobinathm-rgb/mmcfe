@@ -1,0 +1,20 @@
+a,b,delta,lo,hi,sig
+MMCFE full (S1+S2+S3 compound),CRF: sensors only,0.1011,0.0658,0.1332,True
+CRF: + temporal (S1),CRF: sensors only,0.0212,0.004,0.0392,True
+CRF: + temporal + spatial (S1+S2),CRF: + temporal (S1),0.0616,0.0313,0.0888,True
+CRF: + temporal + room fractions (S1+S2a),CRF: + temporal (S1),0.0626,0.0351,0.0886,True
+CRF: + temporal + prior only (S1+S2b),CRF: + temporal (S1),0.0639,0.032,0.0916,True
+CRF: + temporal + spatial (S1+S2),CRF: + temporal + room fractions (S1+S2a),-0.001,-0.007,0.0041,False
+MMCFE full (S1+S2+S3 compound),CRF: + temporal + spatial (S1+S2),0.0183,0.0095,0.0317,True
+MMCFE full (S1+S2+S3 compound),"MMCFE full, no transitions",0.0105,0.0001,0.0221,True
+MMCFE causal (online),MMCFE full (S1+S2+S3 compound),-0.0107,-0.023,0.0002,False
+MMCFE full (S1+S2+S3 compound),Majority class,0.7987,0.7825,0.8198,True
+MMCFE full (S1+S2+S3 compound),Room × hour lookup,0.281,0.2554,0.302,True
+MMCFE full (S1+S2+S3 compound),"HMM (supervised, Gaussian)",0.333,0.3055,0.3548,True
+MMCFE full (S1+S2+S3 compound),MLP with ±2-window context,0.0019,-0.0129,0.0168,False
+MMCFE full (S1+S2+S3 compound),Random Forest,-0.0192,-0.0372,-0.0,True
+MMCFE full (S1+S2+S3 compound),Gradient boosting,-0.0308,-0.0457,-0.0138,True
+GB: + temporal (S1),GB: sensors only,0.0516,0.0358,0.0681,True
+Gradient boosting,GB: + temporal (S1),0.0479,0.0209,0.072,True
+GB: full TSS (S1+S2+S3 compound),Gradient boosting,-0.0002,-0.0086,0.0094,False
+Gradient boosting,GB: sensors only,0.0995,0.0618,0.127,True

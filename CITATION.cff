@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "MMCFE: Context-Aware Multimodal Activity Recognition for Older Adults - code and simulated data"
+authors:
+  - family-names: "M"
+    given-names: "Gobinath"
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+  - family-names: "S"
+    given-names: "Ayyasamy"
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+license: MIT
+version: "1.0.0"
+keywords: [human activity recognition, smart homes, older adults, conditional random fields, data leakage, multimodal fusion]
+preferred-citation:
+  type: article
+  title: "Context-Aware Multimodal Activity Recognition for Older Adults: A Leakage-Free Evaluation on Simulated Indian Households"
+  authors:
+    - family-names: "M"
+      given-names: "Gobinath"
+    - family-names: "S"
+      given-names: "Ayyasamy"
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Under review"

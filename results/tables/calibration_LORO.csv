@@ -1,0 +1,6 @@
+model,ece,ece_lo,ece_hi,brier,brier_lo,brier_hi
+MMCFE full (S1+S2+S3 compound),0.0119,0.0092,0.0182,0.1025,0.0913,0.1144
+Gradient boosting,0.0192,0.0135,0.0244,0.0706,0.0604,0.0799
+Random Forest,0.0486,0.0381,0.0618,0.0873,0.0794,0.0944
+MLP with ±2-window context,0.0365,0.0306,0.0417,0.1075,0.0976,0.1166
+MMCFE causal (online),0.0119,0.007,0.0201,0.1184,0.104,0.1333
