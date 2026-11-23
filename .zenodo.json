@@ -1,0 +1,12 @@
+{
+  "title": "MMCFE: Context-Aware Multimodal Activity Recognition for Older Adults - code and simulated data",
+  "upload_type": "software",
+  "description": "Simulator of Indian senior households, leakage-free evaluation pipeline, scripts that reproduce every table and figure, out-of-fold predictions and the Digital Twin export for the article 'Context-Aware Multimodal Activity Recognition for Older Adults: A Leakage-Free Evaluation on Simulated Indian Households' (IEEE Access, under review).",
+  "creators": [
+    {"name": "M, Gobinath", "affiliation": "Vellore Institute of Technology, Vellore, India"},
+    {"name": "S, Ayyasamy", "affiliation": "Vellore Institute of Technology, Vellore, India"}
+  ],
+  "license": "MIT",
+  "keywords": ["human activity recognition", "smart homes", "older adults", "conditional random fields", "data leakage", "multimodal fusion"],
+  "version": "1.0.0"
+}
